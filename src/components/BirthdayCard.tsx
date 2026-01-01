@@ -4,9 +4,18 @@ import { Volume2, VolumeX, Music } from 'lucide-react';
 import ImageSlider from './ImageSlider';
 
 const celebrationImages = [
-  '/images/sindhu1.jpeg',
   'https://images.unsplash.com/photo-1530103862676-de8c9debad1d?w=600&h=750&fit=crop',
   'https://images.unsplash.com/photo-1464349095431-e9a21285b5f3?w=600&h=750&fit=crop',
+  '/images/sindhu1.jpeg',
+  '/images/sindhu2.jpeg',
+  '/images/sindhu3.jpeg',
+  '/images/sindhu4.jpeg',
+  '/images/sindhu5.jpeg',
+  '/images/sindhu6.jpeg',
+  '/images/sindhu7.jpeg',
+  '/images/sindhu8.jpeg',
+  '/images/sindhu9.jpeg',
+  '/images/sindhu10.jpeg',
 ];
 
 const BirthdayCard = () => {

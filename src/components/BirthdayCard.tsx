@@ -4,7 +4,7 @@ import { Volume2, VolumeX, Music } from 'lucide-react';
 import ImageSlider from './ImageSlider';
 
 const celebrationImages = [
-  '/public/images/sindhu1.jpeg',
+  '/images/sindhu1.jpeg',
   'https://images.unsplash.com/photo-1530103862676-de8c9debad1d?w=600&h=750&fit=crop',
   'https://images.unsplash.com/photo-1464349095431-e9a21285b5f3?w=600&h=750&fit=crop',
 ];

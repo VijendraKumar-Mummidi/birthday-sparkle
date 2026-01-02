@@ -84,7 +84,7 @@ const BirthdayCard = () => {
       <motion.div
         initial={{ scale: 0.8, opacity: 0 }}
         animate={{ scale: 1, opacity: 1 }}
-        transition={{ delay: 0.1 }}
+        transition={{ delay: 0.4 }}
         className="flex justify-center"
       >
         <ImageSlider images={celebrationImages} />

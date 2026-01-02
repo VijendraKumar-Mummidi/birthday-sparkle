@@ -37,7 +37,7 @@ const BirthdayCard = () => {
     <motion.div
       initial={{ scale: 0.6, opacity: 0 }}
       animate={{ scale: 1, opacity: 1 }}
-      transition={{ duration: 0.5, type: 'spring', bounce: 0.4 }}
+      transition={{ duration: 1, type: 'spring', bounce: 0.4 }}
       className="glass-card w-full max-w-lg mx-auto relative z-10"
     >
       <audio
@@ -51,7 +51,7 @@ const BirthdayCard = () => {
       <motion.div
         initial={{ y: -20, opacity: 0 }}
         animate={{ y: 0, opacity: 1 }}
-        transition={{ delay: 0.3 }}
+        transition={{ delay: 0.1 }}
         className="text-center mb-6"
       >
         <motion.div

@@ -70,7 +70,7 @@ const BirthdayCard = () => {
           transition={{ delay: 0.5 }}
           className="text-xl md:text-2xl font-semibold text-primary mt-2 flex items-center justify-center gap-2"
         >
-          <span>Amazing Soul</span>
+          <span>Geetha Sri Sindhu</span>
           <motion.span
             animate={{ scale: [1, 1.3, 1] }}
             transition={{ duration: 1, repeat: Infinity }}
@@ -84,7 +84,7 @@ const BirthdayCard = () => {
       <motion.div
         initial={{ scale: 0.8, opacity: 0 }}
         animate={{ scale: 1, opacity: 1 }}
-        transition={{ delay: 0.4 }}
+        transition={{ delay: 0.1 }}
         className="flex justify-center"
       >
         <ImageSlider images={celebrationImages} />

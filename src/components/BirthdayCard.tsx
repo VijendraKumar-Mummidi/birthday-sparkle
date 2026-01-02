@@ -6,7 +6,7 @@ import ImageSlider from './ImageSlider';
 const celebrationImages = [
   'https://images.unsplash.com/photo-1530103862676-de8c9debad1d?w=600&h=750&fit=crop',
   'https://images.unsplash.com/photo-1464349095431-e9a21285b5f3?w=600&h=750&fit=crop',
-  '/images/sindhu1.jpeg',
+  '/images/sindhu8.jpeg',
   '/images/sindhu2.jpeg',
   '/images/sindhu3.jpeg',
   '/images/sindhu4.jpeg',
@@ -15,7 +15,7 @@ const celebrationImages = [
   '/images/sindhu7.jpeg',
   '/images/sindhu8.jpeg',
   '/images/sindhu9.jpeg',
-  '/images/sindhu10.jpeg',
+  '/images/sindhu4.jpeg',
 ];
 
 const BirthdayCard = () => {
@@ -37,7 +37,7 @@ const BirthdayCard = () => {
     <motion.div
       initial={{ scale: 0.6, opacity: 0 }}
       animate={{ scale: 1, opacity: 1 }}
-      transition={{ duration: 1, type: 'spring', bounce: 0.4 }}
+      transition={{ duration: 0.5, type: 'spring', bounce: 0.4 }}
       className="glass-card w-full max-w-lg mx-auto relative z-10"
     >
       <audio

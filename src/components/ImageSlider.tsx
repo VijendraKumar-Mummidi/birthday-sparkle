@@ -20,7 +20,7 @@ const ImageSlider = ({ images }: ImageSliderProps) => {
   useEffect(() => {
     const interval = setInterval(() => {
       setCurrentIndex((prev) => (prev + 1) % images.length);
-    }, 4000);
+    }, 1000);
     return () => clearInterval(interval);
   }, [images.length]);
 
@@ -36,7 +36,7 @@ const ImageSlider = ({ images }: ImageSliderProps) => {
           initial={{ opacity: 0 }}
           animate={{ opacity: 1 }}
           exit={{ opacity: 0 }}
-          transition={{ duration: 0.4 }}
+          transition={{ duration: 0.2 }}
           className="absolute inset-0 w-full h-full object-cover"
         />
       </AnimatePresence>
